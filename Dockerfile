@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright/java:v1.55.0-noble
+FROM mcr.microsoft.com/playwright/java:${PLAYWRIGHT_TAG}
 
 # Add jdk 25 manually: playwright comes with Ubuntu 24.04 Noble which only has java 21:
 # add adoptium repo
