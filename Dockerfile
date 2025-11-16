@@ -1,5 +1,6 @@
 ARG PLAYWRIGHT_TAG="latest"
 
+# use the existing docker image, because that comes with all the right packages already (we'll remove jdk 21 below)
 FROM mcr.microsoft.com/playwright/java:${PLAYWRIGHT_TAG}
 
 # Add jdk 25 manually: playwright comes with Ubuntu 24.04 Noble which only has java 21:
