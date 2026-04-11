@@ -9,7 +9,7 @@ concurrency:
   group: build-and-push
 
 env:
-  PLAYWRIGHT_TAG: v1.58.0-noble
+  PLAYWRIGHT_TAG: v1.59.0-noble
 
 jobs:
   build-and-push:
